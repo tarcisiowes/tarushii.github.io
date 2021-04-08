@@ -5,9 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 body{
-    /* meu monitor tem resoluçao de 1680x1050 */
-    
-    
     background: #F5F5F5;
     font-family: 'Open Sans', sans-serif;
     color: #545454;
@@ -15,9 +12,7 @@ body{
     line-height: 19px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-   
-    
+    align-items: center;   
 }
 h1{
     font-weight: bold;
@@ -41,8 +36,7 @@ h2{
     height: 4rem;  
     width: 100%; 
     justify-content: center; 
-    margin-bottom: 2rem;
-        
+    margin-bottom: 2rem;        
 }
 .nav{
     display: flex;
@@ -50,8 +44,7 @@ h2{
     justify-content: space-between;
     flex-grow: 1;
     padding-right: 4rem;
-    max-width: 1160px;
-    
+    max-width: 1160px;    
 }
 .links{
     display: flex;
@@ -81,8 +74,7 @@ h2{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     padding: 1rem;
-    width: 85ch;          
-    
+    width: 85ch;    
 }
 .menu input{
     border: 1px solid #EEEEEE;
@@ -91,8 +83,7 @@ h2{
     width: 100%;
     padding: 0.7rem;
     transition:  0.2s ease-in-out;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
 .menu input:hover{
     border: 1px solid #FE0078;
@@ -100,8 +91,7 @@ h2{
     border-radius: 10px;
     width: 100%;
     padding: 0.7rem;
-    transition:  0.2s ease-in-out;
-    
+    transition:  0.2s ease-in-out;    
 }
 
 .menu h3 {
@@ -111,8 +101,7 @@ h2{
     color: #545454; 
 }
 .menu input,.menu h3,.menu div{
-    margin-bottom: 2rem;
-    
+    margin-bottom: 2rem;    
 }
 table {
     border-collapse: collapse;
@@ -142,8 +131,7 @@ td{
     width: 100%; 
     height: 12ch;   
     text-align: center; 
-    cursor: pointer;
-           
+    cursor: pointer;           
 }
 .ads p{
     padding: 6rem 1rem;
@@ -159,8 +147,7 @@ td{
     border-radius: 4px;
     /* width: 75ch;  */
     flex-grow: 1; 
-    margin-right: 50px; 
-    
+    margin-right: 50px;     
 }
 .conteudo p,.conteudo h1,.conteudo h5 {
     padding: 0 1.5rem;
@@ -180,8 +167,7 @@ td{
     text-decoration: none;    
     display: flex;
     position: relative;
-    left: 80%;
-    
+    left: 80%;    
 }
 input[type=button] {
     border: 1px solid #FE0078;
@@ -193,9 +179,7 @@ input[type=button] {
     cursor: pointer;    
     transition:  0.2s ease-in-out;
     margin-top: 2rem;
-    background: #FFFFFF;
-    
-    
+    background: #FFFFFF;    
 }
 input[type=button]:hover{
     background: #FE0078;
@@ -220,7 +204,9 @@ input[type=button]:hover{
     display: flex;    
     background: #222222;
     justify-content: center;
-    padding: 1rem;
+    padding: 2rem;
     color: #FFFFFF;
     transform: translateY(2rem);
+    height: 1rem;  
+    width: 100%;        
 }
