@@ -63,7 +63,8 @@ h2{
 .meio{
     display: flex;
     flex-direction: row;
-    padding: 1.5rem 6rem; 
+    padding: 1.5rem 6rem;
+    justify-content: space-between;
 
 }
 .menu{
