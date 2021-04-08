@@ -41,6 +41,7 @@ h2{
     height: 4rem;  
     width: 100%; 
     justify-content: center; 
+    margin-bottom: 2rem;
         
 }
 .nav{
@@ -48,7 +49,7 @@ h2{
     align-items: center;
     justify-content: space-between;
     flex-grow: 1;
-    padding-right: 3rem;
+    padding-right: 4rem;
     max-width: 1160px;
     
 }
@@ -58,12 +59,10 @@ h2{
 }
 .nav img{
     margin-right: auto;
-    margin-top: 2rem;
-    margin-bottom: 0rem;  
+    padding-left: 3rem;
 }
 .nav a{
-    margin-left: 2rem;
-    padding-top: 2rem;    
+    margin-left: 2rem;   
     text-decoration: none;
     color: #545454;
 }
@@ -82,7 +81,7 @@ h2{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
     padding: 1rem;
-    width: 65ch;          
+    width: 85ch;          
     
 }
 .menu input{
@@ -93,6 +92,7 @@ h2{
     padding: 0.7rem;
     transition:  0.2s ease-in-out;
     cursor: pointer;
+    
 }
 .menu input:hover{
     border: 1px solid #FE0078;
@@ -110,7 +110,7 @@ h2{
     margin-bottom: 2rem;  
     color: #545454; 
 }
-.menu input,h3,div{
+.menu input,.menu h3,.menu div{
     margin-bottom: 2rem;
     
 }
@@ -139,13 +139,14 @@ td{
     line-height: 49px;
     color: #545454;
     background: #EEEEEE;
-    width: 100%;    
+    width: 100%; 
+    height: 12ch;   
     text-align: center; 
     cursor: pointer;
            
 }
 .ads p{
-    padding: 3rem 1rem;
+    padding: 6rem 1rem;
 }
 
 /*======================================================*/
@@ -161,7 +162,7 @@ td{
     margin-right: 50px; 
     
 }
-.conteudo p,h1,h5 {
+.conteudo p,.conteudo h1,.conteudo h5 {
     padding: 0 1.5rem;
 }
 .conteudo p,h5 {
@@ -175,12 +176,12 @@ td{
     width: 100%;
     margin-bottom: 1rem;
 }
-.a{
+.conteudo a{
     text-decoration: none;    
     display: flex;
-    flex-direction: row;
-    align-items: center;   
-    text-align: right;
+    position: relative;
+    left: 80%;
+    
 }
 input[type=button] {
     border: 1px solid #FE0078;
@@ -191,8 +192,10 @@ input[type=button] {
     text-decoration: none;    
     cursor: pointer;    
     transition:  0.2s ease-in-out;
-    margin: 2rem;
-    transform: translateX(330%);
+    margin-top: 2rem;
+    background: #FFFFFF;
+    
+    
 }
 input[type=button]:hover{
     background: #FE0078;
