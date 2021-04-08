@@ -58,6 +58,12 @@ h2{
     margin-left: 2rem;   
     text-decoration: none;
     color: #545454;
+    transition:  0.1s ease-in-out;
+}
+.nav a:hover{
+    border-bottom: 2px dotted #FE0078;
+    color: #FE0078;
+    transition:  0.1s ease-in-out;
 }
 /*======================================================*/
 .meio{
