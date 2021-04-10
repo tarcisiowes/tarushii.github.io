@@ -75,6 +75,7 @@ h2{
     color: #FE0078;
     transition:  0.2s ;
 }
+
 /*================================ MENU LATERAL ======================*/
 .meio{
     display: flex;
@@ -98,7 +99,7 @@ h2{
     border-radius: 10px;
     width: 100%;
     padding: 1rem;
-    transition:  0.2s ease-in-out;
+    transition:  0.3s ease-in-out;
     cursor: pointer;    
 }
 .menu input:hover{
@@ -107,7 +108,7 @@ h2{
     border-radius: 10px;
     width: 100%;
     padding: 1rem;
-    transition:  0.2s ease-in-out;    
+    transition:  0.3s ease-in-out;    
 }
 /* .menu input:focus{
     outline: 1px solid #FE0078;
@@ -135,9 +136,11 @@ table {
 tr:hover{
     border-bottom: 2px dotted #FE0078;
     color: #FE0078;
+    transition: 0.3s;
 }
 tr{
-    border-bottom: 2px dotted #EEEEEE;       
+    border-bottom: 2px dotted #EEEEEE;   
+    transition: 0.3s;    
 }
 td{
     padding: 1rem; 
@@ -160,8 +163,13 @@ td{
 .ads p{
     padding: 6rem 1rem;
 }
-
+#button:active {    
+    box-shadow: 0 -5px #666;
+    transform: translateY(4px);
+      
+}
 /*=================================== POSTS ===================*/
+
 .conteudo{
     display: flex;
 }
@@ -188,8 +196,7 @@ td{
     margin-bottom: 1rem;
 }
 .conteudo a{
-    text-decoration: none;    
-    display: flex;
+    text-decoration: none;      
     position: relative;
     left: 80%;    
 }
@@ -279,7 +286,7 @@ ul{
 #labelNome, #labelEmail, #labelComentario{    
     align-self: flex-end;
 }
-#nome,#email,#textarea{
+#nome,#email,#textarea,#subject{
     
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
@@ -287,13 +294,13 @@ ul{
     border-radius: 2px;
     cursor: pointer;
 }
-#nome:hover,#email:hover,#textarea:hover{
+#nome:hover,#email:hover,#textarea:hover,#subject:hover{
    
     background: #FFFFFF;
     border: 1px solid #FE0078;
     box-sizing: border-box;
     border-radius: 2px;
-    transition:  0.2s ease-in-out;
+    transition:  0.3s ease-in-out;
 }
 
 #comentarios h1{
@@ -333,12 +340,13 @@ ul{
     color: #FFFFFF;
     cursor: pointer;
     margin-top: 3rem;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 #comentarios #button:hover{
-    background-color: #ae0152;
-    transition: 0.2s;
+    
+    transition: 0.3s;
     font-size: 15px;
+    filter:opacity(85%);
 }
   
 
@@ -369,13 +377,15 @@ ul{
 }
 .contato h1{
     margin-bottom: 2rem;
+    margin-top: 1.2rem;
+    
 }
 .contato h2{
     padding-left: 1.5rem;
     margin-bottom: 2rem;
 }
 .contato h4{
-    padding-left: 2rem;
+    padding-left: 1rem;
     margin-bottom: 1rem;
 }
 .contato .form h1{
@@ -392,7 +402,7 @@ ul{
     padding-left: 2rem;
 }
 .contato #comentarios{    
-
+    grid-template-rows: repeat(10, 0.5fr);
     grid-template-areas: 
     "a a b b"
     "c c d d"
@@ -400,6 +410,8 @@ ul{
     "n n m m"
     "s s s s"
     "g g h h"
+    "i i i i"    
+    "i i i i"    
     "i i i i"    
     "j j j k";
 }
@@ -409,3 +421,17 @@ ul{
 .contato #comentarios #labelsubject{
     grid-area:n ;
 }
+.contato img{
+    width: 20px;
+    height: 20px;
+}
+.contato .cont{
+    display: flex;
+    padding-left: 1.5rem;
+    box-shadow: none;
+}
+.contato #button{
+
+}
+
+  
