@@ -220,7 +220,7 @@ input[type=button]:hover{
     border-radius: 20px;
     color: #FFFFFF;
     transition:  0.2s ease-in-out;
-    box-shadow: 0 5px 15px #19304790;
+    box-shadow: 0 5px 15px #00000090;
 }
     
 .conteudo{
@@ -343,7 +343,7 @@ ul{
     cursor: pointer;
     margin-top: 3rem;
     transition: 0.3s;
-    box-shadow: 0 5px 15px #19304790;
+    box-shadow: 0 5px 15px #00000090;
     letter-spacing: 0.1rem;    
     border: none;
     
@@ -444,7 +444,7 @@ ul{
     letter-spacing: 0.3rem;    
     border: none;
     color: #fff;    
-    box-shadow: 0 5px 15px #193047;
+    box-shadow: 0 5px 15px #00000090;
     border-radius: 4px;
 }
   
