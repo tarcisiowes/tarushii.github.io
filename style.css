@@ -24,9 +24,7 @@ body{
     flex-direction: column;
     align-items: center;   
 }
-.posts{
-    color: #000000;
-}
+
 h1{
     font-weight: bold;
     font-size: 24px;
@@ -355,4 +353,59 @@ ul{
     transform: translateY(2rem);
     height: 1rem;  
     width: 100%;        
+}
+
+/* ===================================== POSTS PG ================ */
+
+.posts{
+    color: #000000;
+}
+
+/* ===================================== CONTATO PG ================ */
+
+.contato{
+    color: #000000;
+
+}
+.contato h1{
+    margin-bottom: 2rem;
+}
+.contato h2{
+    padding-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+.contato h4{
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+.contato .form h1{
+    transform: translateX(-1.5rem);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+    margin-bottom: -2rem;
+}
+
+.contato .form{
+    width: 91%;
+    padding-left: 2rem;
+}
+.contato #comentarios{    
+
+    grid-template-areas: 
+    "a a b b"
+    "c c d d"
+    "e e f f"
+    "n n m m"
+    "s s s s"
+    "g g h h"
+    "i i i i"    
+    "j j j k";
+}
+.contato #comentarios #subject{
+    grid-area:s ;
+}
+.contato #comentarios #labelsubject{
+    grid-area:n ;
 }
