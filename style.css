@@ -126,6 +126,9 @@ h2{
 .menu input,.menu h3,.menu div{
     margin-bottom: 3rem;    
 }
+.menu div:last-child {
+    margin-bottom: 0;
+}
 table {
     border-collapse: collapse;
     width: 100%;
