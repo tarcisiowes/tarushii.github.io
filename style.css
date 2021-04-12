@@ -67,13 +67,18 @@ h2{
 .nav a{
     margin-left: 2rem;   
     text-decoration: none;
+    padding: 0.2rem;
     color: #545454;
     transition:  0.2s ;
+    align-self: center;
 }
 .nav a:hover{
-    border-bottom: 2px dotted #FE0078;
+    border-bottom: 1px dotted #FE0078;
     color: #FE0078;
     transition:  0.2s ;
+    transform: translateY(1px);
+    
+    
 }
 
 /*================================ MENU LATERAL ======================*/
@@ -110,13 +115,6 @@ h2{
     padding: 1rem;
     transition:  0.3s ease-in-out;    
 }
-/* .menu input:focus{
-    outline: 1px solid #FE0078;
-    outline-offset: 0.2rem;
-    box-shadow:
-        0 0 0 5px white
-        0 0 0 12px  #FE0078;
-} */
 
 .menu h3 {
     border-left: 2px solid #FE0078;
@@ -281,9 +279,7 @@ ul{
     width: 100%;
     
 }
-#comentarios input,label {
-    
-    /* border: 2px solid red; */
+#comentarios input,label {    
     font-weight: normal;
     font-size: 14px;
     line-height: 1.5rem;
